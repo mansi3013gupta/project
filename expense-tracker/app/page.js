@@ -1,11 +1,12 @@
 
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
-
+import Hero from "@/components/Hero";
+import Header from "@/components/Header";
 
 export default function Home() {
   return (
-    <div className='p-5 flex justify-between items-center border shadow-sm'>
+    <div>
       <Header/>
       <Hero/>
       
