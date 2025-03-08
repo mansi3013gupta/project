@@ -51,6 +51,7 @@ function SideNav()
             
             )}
             </div>
+            <UserButton/>
         </div>
     )
 }
