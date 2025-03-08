@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { Button } from "./ui/button";
+
 export default function Hero() {
   return (
     <section className="bg-gray-50 flex items-center flex-col">
