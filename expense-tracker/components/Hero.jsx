@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Button } from "./ui/button";
 export default function Hero() {
   return (
-    <section className="bg-gray-50">
+    <section className="bg-gray-50 flex items-center flex-col">
       <div className="mx-auto max-w-screen-xl px-4 py-32 lg:flex lg:h-screen lg:items-center">
         <div className="mx-auto max-w-xl text-center">
           <h1 className="text-3xl font-extrabold sm:text-5xl">
@@ -35,7 +35,7 @@ export default function Hero() {
           </div>
         </div>
       </div>
-      <Image src="/dashboard.png" alt="Dashboard" width={100} height={700} />
+      <Image src="/dashboard.png" alt="Dashboard" width={1000} height={700} className='mt-9 rounded-xl border-2'/>
     </section>
   );
 }
